@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "title": "Homepod mini",
+      "discription": "5 colors available",
+      "price": "$99.00",
+      "img": "/assets/img/homepod.png",
+      "altr": "homepod"
+    },
+    {
+      "title": "Instax mini 9",
+      "discription": "settle mode and settle mirror",
+      "price": "$99.00",
+      "img": "/assets/img/instax.png",
+      "altr": "instax"
+    },
+    {
+      "title": "Base Camp Duffle",
+      "discription": "Color - Summit Gold - TNF",
+      "price": "$159.00",
+      "img": "/assets/img/duffle.png",
+      "altr": "duffle"
+    },
+    {
+      "title": "Tote Medium",
+      "discription": "full grain leather",
+      "price": "$1259.00",
+      "img": "/assets/img/bag.png",
+      "altr": "bag"
+    },
+    {
+      "title": "Laptop sleeve",
+      "discription": "Organic Cotton ",
+      "price": "$59.00",
+      "img": "/assets/img/laptopbag.png",
+      "altr": "laptopbag"
+    },
+    {
+      "title": "Hand Watch",
+      "discription": "citizen 660M,W-69g",
+      "price": "$59.00",
+      "img": "/assets/img/watch.png",
+      "altr": "watch"
+    }
+  ]
+}

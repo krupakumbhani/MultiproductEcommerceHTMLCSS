@@ -1,0 +1,1046 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <title>Multiproduct Ecommerce Website</title>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light py-3">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img
+            class="navbar_logo_img"
+            src="/assets/img/logo.png"
+            alt="Navbar_logo"
+          />
+          <span class="navbar_brand_name text_green">Shopcart</span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item me-2 dropdown">
+              <a
+                class="nav-link text_dark dropdown-toggle"
+                href="/"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="/">Action</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/"> Another action </a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/"> Something else here </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link text_dark" href="/">Deals</a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link text_dark" href="/"> What&#x27;s New </a>
+            </li>
+            <li class="nav-item me-2">
+              <a class="nav-link text_dark" href="/"> Delivery </a>
+            </li>
+          </ul>
+          <div
+            class="d-flex align-items-md-center align-items-start flex-column flex-md-row"
+          >
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Search Products"
+                aria-label="Search Products"
+                aria-describedby="basic-addon2"
+              />
+              <span class="input-group-text" id="basic-addon2">
+                <img class="searchbar_img" src="/assets/img/loupe.png" alt="" />
+              </span>
+            </div>
+            <div class="d-flex align-items-center mt-4 mt-md-0">
+              <div class="ms-md-5 d-flex" role="button">
+                <img
+                  src="/assets/img/user.png"
+                  class="nav_icon"
+                  id="acoount_logo"
+                  alt=""
+                />
+                <span class="acc">Account</span>
+              </div>
+              <div class="ms-md-5 ms-3 d-flex" role="button">
+                <img src="/assets/img/cart.png" class="nav_icon" alt="" />
+                <span class="acc">Cart</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar end -->
+
+    <!-- Hero Section start -->
+    <div class="hero_wrapper">
+      <div class="container">
+        <div class="hero_content container">
+          <h1 class="mb-4 text_green hero_title">
+            Shopping and
+            <br />
+            Department Store
+          </h1>
+          <p class="mb-4 text_green hero_subtitle">
+            Shopping is a bit of a relaxing hobby for me,
+            <br />
+            which is sometimes troubling for the bank balance.
+          </p>
+          <a class="btn btn-outline-dark rounded-pill btn_green">
+            Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Hero Section end -->
+
+    <!-- TopCategories start -->
+    <section class="TopCategories">
+      <div class="container">
+        <div class="section_heading">
+          <h2 class="text-start">Shop Our Top Categories</h2>
+        </div>
+
+        <div class="swiper" id="TopCategoriesSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <h4 class="top_categories_text_on_img">Furniture</h4>
+                <img
+                  src="/assets/img/sec2_furniture.png"
+                  class="top_categories_bg_img"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <h4 class="top_categories_text_on_img">Handbag</h4>
+                <img
+                  src="/assets/img/sec2_handbag.png"
+                  class="top_categories_bg_img"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <h4 class="top_categories_text_on_img">Travel</h4>
+                <img
+                  src="/assets/img/sec2_travel.png"
+                  class="top_categories_bg_img"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <h4 class="top_categories_text_on_img">Tech</h4>
+                <img
+                  src="/assets/img/sec2_tech.png"
+                  class="top_categories_bg_img"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <h4 class="top_categories_text_on_img">Beauty</h4>
+                <img
+                  src="/assets/img/sec2_beauty.png"
+                  class="top_categories_bg_img"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <h4 class="top_categories_text_on_img">Art</h4>
+                <img
+                  src="/assets/img/sec2_art.png"
+                  class="top_categories_bg_img"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <h4 class="top_categories_text_on_img">Education</h4>
+                <img
+                  src="/assets/img/sec2_education.png"
+                  class="top_categories_bg_img"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <h4 class="top_categories_text_on_img">Furniture</h4>
+
+                <img
+                  src="/assets/img/sec2_furniture.png"
+                  class="top_categories_bg_img"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <h4 class="top_categories_text_on_img">Hats</h4>
+                <img
+                  src="/assets/img/sec2_hats.png"
+                  class="top_categories_bg_img"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </div>
+    </section>
+    <!-- TopCategories end -->
+
+    <!-- Todays Best Deals start-->
+    <section class="TodaysBestDeals">
+      <div class="container">
+        <div class="section_heading">
+          <h2 class="text-start">Todays Best Deals For You!</h2>
+        </div>
+
+        <div class="swiper TodaysBestDealsSwiper">
+          <div class="swiper-wrapper" id="TodaysBestDealsSwiper"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Todays Best Deals end-->
+
+    <!-- Choose Brand Start  -->
+    <section class="ChooseBrand">
+      <div class="container">
+        <div class="section_heading">
+          <h2 class="text-start">Choose By Brand</h2>
+        </div>
+
+        <div class="row gy-3">
+          <div class="col-xxl-3 col-lg-4 col-md-6 col-6">
+            <div
+              class="brand_card d-flex align-items-center justify-content-between"
+            >
+              <div class="brand_img_box">
+                <img src="/assets/img/sec4_logo1.png" alt="" />
+              </div>
+              <div class="brand_content">
+                <h6 class="margin_block_end_3 fw-bold">staples</h6>
+                <p class="text_14 margin_block_end_3">
+                  Delivery with in 24 hours
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-4 col-md-6 col-6">
+            <div
+              class="brand_card d-flex align-items-center justify-content-between"
+            >
+              <div class="brand_img_box">
+                <img src="/assets/img/sec4_logo1.png" alt="" />
+              </div>
+              <div class="brand_content">
+                <h6 class="margin_block_end_3 fw-bold">staples</h6>
+                <p class="text_14 margin_block_end_3">
+                  Delivery with in 24 hours
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-4 col-md-6 col-6">
+            <div
+              class="brand_card d-flex align-items-center justify-content-between"
+            >
+              <div class="brand_img_box">
+                <img src="/assets/img/sec4_logo1.png" alt="" />
+              </div>
+              <div class="brand_content">
+                <h6 class="margin_block_end_3 fw-bold">staples</h6>
+                <p class="text_14 margin_block_end_3">
+                  Delivery with in 24 hours
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-4 col-md-6 col-6">
+            <div
+              class="brand_card d-flex align-items-center justify-content-between"
+            >
+              <div class="brand_img_box">
+                <img src="/assets/img/sec4_logo1.png" alt="" />
+              </div>
+              <div class="brand_content">
+                <h6 class="margin_block_end_3 fw-bold">staples</h6>
+                <p class="text_14 margin_block_end_3">
+                  Delivery with in 24 hours
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-4 col-md-6 col-6">
+            <div
+              class="brand_card d-flex align-items-center justify-content-between"
+            >
+              <div class="brand_img_box">
+                <img src="/assets/img/sec4_logo1.png" alt="" />
+              </div>
+              <div class="brand_content">
+                <h6 class="margin_block_end_3 fw-bold">staples</h6>
+                <p class="text_14 margin_block_end_3">
+                  Delivery with in 24 hours
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-4 col-md-6 col-6">
+            <div
+              class="brand_card d-flex align-items-center justify-content-between"
+            >
+              <div class="brand_img_box">
+                <img src="/assets/img/sec4_logo1.png" alt="" />
+              </div>
+              <div class="brand_content">
+                <h6 class="margin_block_end_3 fw-bold">staples</h6>
+                <p class="text_14 margin_block_end_3">
+                  Delivery with in 24 hours
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-4 col-md-6 col-6">
+            <div
+              class="brand_card d-flex align-items-center justify-content-between"
+            >
+              <div class="brand_img_box">
+                <img src="/assets/img/sec4_logo1.png" alt="" />
+              </div>
+              <div class="brand_content">
+                <h6 class="margin_block_end_3 fw-bold">staples</h6>
+                <p class="text_14 margin_block_end_3">
+                  Delivery with in 24 hours
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-lg-4 col-md-6 col-6">
+            <div
+              class="brand_card d-flex align-items-center justify-content-between"
+            >
+              <div class="brand_img_box">
+                <img src="/assets/img/sec4_logo1.png" alt="" />
+              </div>
+              <div class="brand_content">
+                <h6 class="margin_block_end_3 fw-bold">staples</h6>
+                <p class="text_14 margin_block_end_3">
+                  Delivery with in 24 hours
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Choose Brand end  -->
+
+    <!-- SellProducts start  -->
+    <section class="SellProducts">
+      <div class="container">
+        <div class="section_heading">
+          <h2 class="text-start">Get Upto 70% Off</h2>
+        </div>
+
+        <div class="swiper SellProductsSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card TodaysBestDeals_card">
+                <div class="card-body sellproduct_body" id="sellbody_1">
+                  <h5 class="card-title me-auto">Save</h5>
+                  <h5
+                    class="card-title sellproduct_price fst-italic"
+                    id="sellprice_1"
+                  >
+                    $80
+                  </h5>
+                  <p class="card-text mb-0">
+                    Explore our furniture & home furnishing range
+                  </p>
+                </div>
+                <div class="sellproductImg">
+                  <img
+                    src="/assets/img/sec5_furniture.jpg"
+                    alt="..."
+                    class="sellproduct_img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card TodaysBestDeals_card">
+                <div class="card-body sellproduct_body" id="sellbody_2">
+                  <h5 class="card-title me-auto">Save</h5>
+                  <h5
+                    class="card-title sellproduct_price fst-italic"
+                    id="sellprice_2"
+                  >
+                    $100
+                  </h5>
+                  <p class="card-text mb-0">
+                    Explore our furniture & home furnishing range
+                  </p>
+                </div>
+                <div class="sellproductImg">
+                  <img
+                    src="/assets/img/sec5_books.jpg"
+                    alt="..."
+                    class="sellproduct_img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card TodaysBestDeals_card">
+                <div class="card-body sellproduct_body" id="sellbody_3">
+                  <h5 class="card-title me-auto">Save</h5>
+                  <h5
+                    class="card-title sellproduct_price fst-italic"
+                    id="sellprice_3"
+                  >
+                    $67
+                  </h5>
+                  <p class="card-text mb-0">
+                    Explore our furniture & home furnishing range
+                  </p>
+                </div>
+                <div class="sellproductImg">
+                  <img
+                    src="/assets/img/sec5_cloths.jpg"
+                    alt="..."
+                    class="sellproduct_img"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card TodaysBestDeals_card">
+                <div class="card-body sellproduct_body" id="sellbody_4">
+                  <h5 class="card-title me-auto">Save</h5>
+                  <h5
+                    class="card-title sellproduct_price fst-italic"
+                    id="sellprice_4"
+                  >
+                    $59
+                  </h5>
+                  <p class="card-text mb-0">
+                    Explore our furniture & home furnishing range
+                  </p>
+                </div>
+                <div class="sellproductImg">
+                  <img
+                    src="/assets/img/sec5_education.jpg"
+                    alt="..."
+                    class="sellproduct_img"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SellProducts end  -->
+
+    <!-- Weekly Popular Products start  -->
+    <section class="TodaysBestDeals">
+      <div class="container">
+        <div class="section_heading">
+          <h2 class="text-start">Weekly Popular Products</h2>
+        </div>
+
+        <div class="swiper TodaysBestDealsSwiper">
+          <div class="swiper-wrapper" id="WeeklyPopular"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Weekly Popular Products end  -->
+
+    <!-- CashbackAd start -->
+    <section class="cashback_wrapper">
+      <div class="cashback_box">
+        <h6>
+          Get 5% Cash <br />
+          back On $200
+        </h6>
+        <p>
+          Shopping is a bit of a relaxing hobby for me, <br />
+          which is sometimes troubling for the bank balance.
+        </p>
+        <a href="/" class="btn btn-outline-light rounded-pill cashback_btn">
+          Learn More
+        </a>
+      </div>
+    </section>
+    <!-- CashbackAd end -->
+
+    <!-- All Deals start -->
+    <section class="AllDeals">
+      <div class="container">
+        <div class="section_heading">
+          <h2 class="text-start">Todays Best Deals For You!</h2>
+        </div>
+        <ul class="nav nav-pills my-3">
+          <li class="nav-tem">
+            <button
+              type="button"
+              class="btn btn-outline-dark rounded-pill me-3 btn_transperent btn_padding"
+            >
+              ALL
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              type="button"
+              class="btn btn-outline-dark rounded-pill me-3 btn_transperent btn_padding"
+            >
+              Beauty
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              type="button"
+              class="btn btn-outline-dark rounded-pill me-3 btn_transperent btn_padding"
+            >
+              Travel
+            </button>
+          </li>
+        </ul>
+
+        <div class="row gy-5" id="alldeals"></div>
+      </div>
+    </section>
+    <!-- All Deals end -->
+
+    <!-- discount section start -->
+    <section>
+      <div class="container">
+        <div class="sec9_bg">
+          <div class="row align-items-center">
+            <div class="col-lg-8 col-6">
+              <div class="sec9textbox">
+                <h6>Get 5% Cash back</h6>
+                <p>on shopcart.com</p>
+                <a href="/" class="btn rounded-pill btn_green"> Learn More </a>
+              </div>
+            </div>
+            <div class="col-lg-4 col-6">
+              <img
+                src="/assets/img/sec9_cards.png"
+                alt=""
+                class="img-fluid sec9_img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- discount section end -->
+
+    <!-- Most Selling Products start -->
+    <section>
+      <div class="container">
+        <div class="section_heading">
+          <h2 class="text-start">Most Selling Products</h2>
+        </div>
+
+        <div class="swiper TodaysBestDealsSwiper">
+          <div class="swiper-wrapper" id="MostSelling"></div>
+        </div>
+      </div>
+    </section>
+    <!-- Most Selling Products end -->
+
+    <!-- TrendingProducts start  -->
+    <section class="TrendingProducts">
+      <div class="container">
+        <div class="section_heading">
+          <h2 class="text-start">Trending Products For You</h2>
+        </div>
+        <div class="swiper TrendingProductsSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="card">
+                <img
+                  src="/assets/img/sec7_bg.png"
+                  class="TrendingProducts_img"
+                  alt="..."
+                />
+                <div class="card-body bg_grey">
+                  <h5 class="card-title me-auto fw-bold">Furniture Village</h5>
+                  <p class="card-text mb_02rem">Delivery within 24 hours</p>
+
+                  <a
+                    href="/"
+                    class="btn btn-outline-dark rounded-pill btn_green mt-2"
+                  >
+                    Shop Now
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img
+                  src="/assets/img/sec7_cloths.png"
+                  class="TrendingProducts_img"
+                  alt="..."
+                />
+                <div class="card-body bg_grey">
+                  <h5 class="card-title me-auto fw-bold">Furniture Village</h5>
+                  <p class="card-text mb_02rem">Delivery within 24 hours</p>
+
+                  <a
+                    href="/"
+                    class="btn btn-outline-dark rounded-pill btn_green mt-2"
+                  >
+                    Shop Now
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img
+                  src="/assets/img/sec7_bg.png"
+                  class="TrendingProducts_img"
+                  alt="..."
+                />
+                <div class="card-body bg_grey">
+                  <h5 class="card-title me-auto fw-bold">Furniture Village</h5>
+                  <p class="card-text mb_02rem">Delivery within 24 hours</p>
+
+                  <a
+                    href="/"
+                    class="btn btn-outline-dark rounded-pill btn_green mt-2"
+                  >
+                    Shop Now
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <img
+                  src="/assets/img/sec7_cloths.png"
+                  class="TrendingProducts_img"
+                  alt="..."
+                />
+                <div class="card-body bg_grey">
+                  <h5 class="card-title me-auto fw-bold">Furniture Village</h5>
+                  <p class="card-text mb_02rem">Delivery within 24 hours</p>
+
+                  <a
+                    href="/"
+                    class="btn btn-outline-dark rounded-pill btn_green mt-2"
+                  >
+                    Shop Now
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TrendingProducts end  -->
+
+    <!-- BestSelling start  -->
+    <section class="BestSelling">
+      <div class="container">
+        <div class="section_heading">
+          <h2 class="text-start">Best Selling Products</h2>
+        </div>
+
+        <div class="swiper BestSellingSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide ml-3">
+              <div class="card">
+                <img
+                  src="/assets/img/bestsell_card.png"
+                  alt="..."
+                  class="BestSelling_img"
+                />
+                <img
+                  src="/assets/img/sec4_logo1.png"
+                  class="img_overlap"
+                  alt="..."
+                />
+                <div class="card-body bg_grey">
+                  <h5 class="card-title me-auto">Staples</h5>
+                  <p class="card-text mb_02rem">Buy • Furniture</p>
+                  <p class="card-text mb_02rem text_red">
+                    Delivery within 24 hours
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ml-3">
+              <div class="card">
+                <img src="/assets/img/bestsell_card.png" alt="..." />
+                <img
+                  src="/assets/img/sec4_logo1.png"
+                  class="img_overlap"
+                  alt="..."
+                />
+                <div class="card-body bg_grey">
+                  <h5 class="card-title me-auto">Staples</h5>
+                  <p class="card-text mb_02rem">Buy • Furniture</p>
+                  <p class="card-text mb_02rem text_red">
+                    Delivery within 24 hours
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ml-3">
+              <div class="card">
+                <img src="/assets/img/bestsell_card.png" alt="..." />
+                <img
+                  src="/assets/img/sec4_logo1.png"
+                  class="img_overlap"
+                  alt="..."
+                />
+                <div class="card-body bg_grey">
+                  <h5 class="card-title me-auto">Staples</h5>
+                  <p class="card-text mb_02rem">Buy • Furniture</p>
+                  <p class="card-text mb_02rem text_red">
+                    Delivery within 24 hours
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ml-3">
+              <div class="card">
+                <img src="/assets/img/bestsell_card.png" alt="..." />
+                <img
+                  src="/assets/img/sec4_logo1.png"
+                  class="img_overlap"
+                  alt="..."
+                />
+                <div class="card-body bg_grey">
+                  <h5 class="card-title me-auto">Staples</h5>
+                  <p class="card-text mb_02rem">Buy • Furniture</p>
+                  <p class="card-text mb_02rem text_red">
+                    Delivery within 24 hours
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ml-3">
+              <div class="card">
+                <img src="/assets/img/bestsell_card.png" alt="..." />
+                <img
+                  src="/assets/img/sec4_logo1.png"
+                  class="img_overlap"
+                  alt="..."
+                />
+                <div class="card-body bg_grey">
+                  <h5 class="card-title me-auto">Staples</h5>
+                  <p class="card-text mb_02rem">Buy • Furniture</p>
+                  <p class="card-text mb_02rem text_red">
+                    Delivery within 24 hours
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ml-3">
+              <div class="card">
+                <img src="/assets/img/bestsell_card.png" alt="..." />
+                <img
+                  src="/assets/img/sec4_logo1.png"
+                  class="img_overlap"
+                  alt="..."
+                />
+                <div class="card-body bg_grey">
+                  <h5 class="card-title me-auto">Staples</h5>
+                  <p class="card-text mb_02rem">Buy • Furniture</p>
+                  <p class="card-text mb_02rem text_red">
+                    Delivery within 24 hours
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide ml-3">
+              <div class="card">
+                <img src="/assets/img/bestsell_card.png" alt="..." />
+                <img
+                  src="/assets/img/sec4_logo1.png"
+                  class="img_overlap"
+                  alt="..."
+                />
+                <div class="card-body bg_grey">
+                  <h5 class="card-title me-auto">Staples</h5>
+                  <p class="card-text mb_02rem">Buy • Furniture</p>
+                  <p class="card-text mb_02rem text_red">
+                    Delivery within 24 hours
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- BestSelling end  -->
+
+    <!-- Services start  -->
+    <section class="Services">
+      <div class="container">
+        <div class="section_heading">
+          <h2 class="text-start">Services To Help You Shop</h2>
+        </div>
+        <div class="row gy-3">
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body service_card">
+                <h5 class="card-title fw-bold fst-italic">
+                  Frequently Asked <br />
+                  Questions
+                </h5>
+                <p class="card-text mb-0">
+                  Updates on safe shopping in our stores
+                </p>
+              </div>
+              <img src="/assets/img/services_card.png" alt="..." class="" />
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body service_card">
+                <h5 class="card-title fw-bold fst-italic">
+                  Online Payment <br />
+                  Process
+                </h5>
+                <p class="card-text mb-0">
+                  Updates on safe shopping in our stores
+                </p>
+              </div>
+              <img src="/assets/img/online_payment.png" alt="..." class="" />
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card">
+              <div class="card-body service_card">
+                <h5 class="card-title fw-bold fst-italic">
+                  Home Delivery <br />
+                  Options
+                </h5>
+                <p class="card-text mb-0">
+                  Updates on safe shopping in our stores
+                </p>
+              </div>
+              <img src="/assets/img/delivery1_4x.png" alt="..." class="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services end  -->
+
+    <!-- footer start  -->
+    <section class="footer">
+      <div class="container">
+        <div class="footer_border my-lg-4 my-3"></div>
+        <div class="row">
+          <div
+            class="col-lg-3 col-md-12 col-12 mb-lg-0 mb-2 pb-lg-0 pb-4 border_add_bottom me-auto"
+          >
+            <div class="row d-flex flex-column footer_height">
+              <div class="col-lg-12 col-md-12 col-6 text-start footer_logo p-2">
+                <img class="logo_img" src="/assets/img/logo.png" alt="" />
+                <span class="text_green p-1 footer_brand">Shopcart</span>
+              </div>
+              <div class="col-lg-12 col-6 col-md-6 mt-md-3 mt-0 p-2 footer_des">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Veritatis ex placeat impedit odio, quod labore. Ullam laborum
+                quisquam magnam eum laudantium veniam omnis!
+              </div>
+
+              <div class="col-lg-12 col-md-6 mt-auto p-2">
+                <p class="mb-2 text-start fw-bold">Accepted Payments</p>
+                <div class="row gy-2">
+                  <div class="col-3">
+                    <img
+                      src="/assets/img/gpay.png"
+                      alt="social_media"
+                      class="payment_img"
+                    />
+                  </div>
+                  <div class="col-3">
+                    <img
+                      src="/assets/img/gpay.png"
+                      alt="social_media"
+                      class="payment_img"
+                    />
+                  </div>
+                  <div class="col-3">
+                    <img
+                      src="/assets/img/gpay.png"
+                      alt="social_media"
+                      class="payment_img"
+                    />
+                  </div>
+                  <div class="col-3">
+                    <img
+                      src="/assets/img/gpay.png"
+                      alt="social_media"
+                      class="payment_img"
+                    />
+                  </div>
+                  <div class="col-3">
+                    <img
+                      src="/assets/img/gpay.png"
+                      alt="social_media"
+                      class="payment_img"
+                    />
+                  </div>
+                  <div class="col-3">
+                    <img
+                      src="/assets/img/gpay.png"
+                      alt="social_media"
+                      class="payment_img"
+                    />
+                  </div>
+                  <div class="col-3">
+                    <img
+                      src="/assets/img/gpay.png"
+                      alt="social_media"
+                      class="payment_img"
+                    />
+                  </div>
+                  <div class="col-3">
+                    <img
+                      src="/assets/img/gpay.png"
+                      alt="social_media"
+                      class="payment_img"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-3 col-6 mt-3 mt-lg-0 offset-lg-1">
+            <p class="fw-bold mb-2">Department</p>
+            <ul class="ps-0">
+              <li class="pb-2">Fashion</li>
+              <li class="pb-2">Education Product</li>
+              <li class="pb-2">Frozen Food</li>
+              <li class="pb-2">Bavarages</li>
+              <li class="pb-2">Organic Grocary</li>
+              <li class="pb-2">Office Supplies</li>
+              <li class="pb-2">Beauty Products</li>
+              <li class="pb-2">Books</li>
+              <li class="pb-2">Elecronics & Gadget</li>
+              <li class="pb-2">Travel Accasories</li>
+              <li class="pb-2">Fitness</li>
+              <li class="pb-2">Snickers</li>
+              <li class="pb-2">Toys</li>
+              <li class="pb-2">Furniture</li>
+            </ul>
+          </div>
+          <div
+            class="col-lg-2 col-sm-3 col-6 mt-3 mt-lg-0 d-flex justify-content-between flex-column"
+          >
+            <div class="mb-3">
+              <p class="fw-bold mb-2">About us</p>
+              <ul class="ps-0">
+                <li class="pb-2">About Shopcart</li>
+                <li class="pb-2">Careers</li>
+                <li class="pb-2">News & Blog</li>
+                <li class="pb-2">Help</li>
+                <li class="pb-2">Press Center</li>
+                <li class="pb-2">Shop by Brands</li>
+                <li class="pb-2">Shopcart Brands</li>
+                <li class="pb-2">Affilate & Partners</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-3 col-6 mt-3 mt-lg-0">
+            <p class="fw-bold mb-2">Services</p>
+            <ul class="ps-0">
+              <li class="pb-2">Gift Card</li>
+              <li class="pb-2">Mobile App</li>
+              <li class="pb-2">Shipping & Delivery</li>
+              <li class="pb-2">Order Pickup</li>
+              <li class="pb-2">Account Signup</li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-sm-3 col-6 mt-3 mt-lg-0">
+            <p class="fw-bold mb-2">Help</p>
+            <ul class="ps-0">
+              <li class="pb-2">Shopcart Help</li>
+              <li class="pb-2">Returns</li>
+              <li class="pb-2">Track Orders</li>
+              <li class="pb-2">Contact us</li>
+              <li class="pb-2">Feedback</li>
+              <li class="pb-2">Security & Fraud</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_border my-lg-4 my-3"></div>
+      </div>
+    </section>
+    <!-- footer end  -->
+  </body>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="/assets/js/myjs.js"></script>
+  <script src="/assets/js/data.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>

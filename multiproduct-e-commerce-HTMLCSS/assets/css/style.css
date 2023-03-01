@@ -1,0 +1,777 @@
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.text_green {
+  color: #013d29;
+}
+
+.text_red {
+  color: rgb(158, 42, 42) !important;
+}
+
+.text_dark {
+  color: black !important;
+}
+
+.w_20 {
+  width: 20px;
+}
+
+/* Navbar styles */
+
+.navbar_padding {
+  padding: 1rem 0rem !important;
+}
+
+.navbar_logo_img {
+  width: 30px;
+}
+
+.navbar_brand_name {
+  font-weight: 700;
+}
+
+.form-control {
+  border-right: none !important;
+  background-color: #f8f6fa !important;
+  border: 0px solid white !important;
+  border-radius: 25px 0px 0px 25px !important;
+}
+
+.form-control:focus {
+  border: none !important;
+  box-shadow: 0 0 0 0 wheat !important;
+}
+
+.input-group-text {
+  border-left: none !important;
+  background-color: #f8f6fa !important;
+  border: 0px solid white !important;
+  border-radius: 0px 25px 25px 0px !important;
+}
+
+.searchbar_img {
+  width: 16px;
+}
+
+.nav_icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+#acoount_logo {
+  padding: 0.1em;
+}
+
+nav .nav-link:hover {
+  color: #013d29 !important;
+}
+
+/* Hero styles */
+
+.hero_wrapper {
+  padding: 10rem;
+  width: 100%;
+  background-image: url(/assets/img/Mailing-boxes.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: block;
+}
+
+.hero_title {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.hero_subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.hero_content {
+  animation: fadeInUp 0.9s ease backwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translate(0px, 100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translate(0px, 0);
+    opacity: 1;
+  }
+}
+
+.btn_green {
+  color: white !important;
+  background-color: #013d29 !important;
+  line-height: 17px;
+  font-size: 15px;
+}
+
+.btn_green:hover {
+  color: #013d29 !important;
+  background-color: white !important;
+  border: 1px solid white;
+}
+
+.btn_transperent {
+  line-height: 17px;
+  font-size: 15px;
+  color: #013d29 !important;
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.btn_transperent:hover {
+  color: white !important;
+  background-color: #013d29 !important;
+}
+
+/* TopCategories style */
+
+section {
+  margin-top: 80px;
+}
+
+.section_heading {
+  margin-bottom: 40px;
+}
+
+.section_heading h2 {
+  font-weight: 600;
+  margin: 0;
+  color: #013d29;
+  text-align: center;
+  position: relative;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.swiper-wrapper {
+  justify-content: space-between;
+}
+
+
+.top_categories_text_on_img {
+  color: white;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.top_categories_bg_img {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+/* Todays Best Deals style */
+.TodaysBestDeals_card {
+  border-radius: 10px !important;
+  width: 18rem;
+}
+
+.TodaysBestDeals_bg_img {
+  width: 100%;
+  padding: 15px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0px;
+}
+
+.TodaysBestDeals_heart_on_img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 7%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  background-color: #f7f5f7;
+  padding: 5px;
+  border-radius: 14px;
+}
+
+.TodaysBestDeals_heart_on_img:hover {
+  cursor: pointer;
+}
+
+.bg_grey {
+  background-color: #f7f5f7;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.bg_grey:hover {
+  background-color: #e0d7e0fd;
+}
+
+.mb_02rem {
+  margin-bottom: 0.2rem !important;
+}
+
+.rating {
+  display: inline-block !important;
+  width: 65px;
+}
+
+.rating_count {
+  font-size: 12px;
+}
+
+/* choose brand styles */
+.brand_card {
+  background-color: #f7f5f7;
+  padding: 10px 35px;
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0);
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.brand_card:hover {
+  border: 1px solid grey;
+}
+
+.brand_img_box {
+  width: 50px;
+}
+
+.brand_img_box img {
+  width: 100%;
+}
+
+.text_14 {
+  font-size: 14px;
+}
+
+/* sellproducts styles */
+.sellproduct_body {
+  border-radius: 10px 10px 0 0;
+}
+
+#sellbody_1 {
+  background-color: #f7f2d5;
+}
+
+#sellbody_2 {
+  background-color: #fadbdd;
+}
+
+#sellbody_3 {
+  background-color: #f2e4dd;
+}
+
+#sellbody_4 {
+  background-color: #d3f7f0;
+}
+
+.sellproduct_price {
+  font-size: 35px;
+  font-weight: 800;
+  color: #c3a02d;
+}
+
+#sellprice_1 {
+  color: #cf9a1a;
+}
+
+#sellprice_2 {
+  color: #991f2a;
+}
+
+#sellprice_3 {
+  color: #946950;
+}
+
+#sellprice_4 {
+  color: #0f3830;
+}
+
+.card {
+  border: none !important;
+}
+
+.sellproduct_img {
+  height: 200px;
+  width: 288px;
+  border-radius: 0px 0px 10px 10px;
+  transition: transform 0.5s ease;
+}
+
+.sellproduct_img:hover {
+  transform: scale(1.1);
+}
+
+.sellproductImg {
+  overflow: hidden;
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+/* CashbackAd styles */
+.cashback_wrapper {
+  width: 100%;
+  background-image: url(/assets/img/sec7_bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  padding: 120px;
+}
+
+.cashback_box {
+  background-color: #253e25;
+  color: white;
+  padding: 50px;
+}
+
+.cashback_box h6 {
+  font-size: 36px;
+  line-height: inherit;
+  font-weight: bold;
+}
+
+/* All Deals Styles */
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* discount section styles */
+.sec9_bg {
+  background-color: #ffe5cc;
+  padding: 20px 100px;
+  margin-top: 80px;
+}
+
+.sec9textbox h6 {
+  font-size: 48px;
+  line-height: inherit;
+  font-weight: bold;
+}
+
+.sec9textbox p {
+  font-size: 21px;
+}
+
+.sec9_img {
+  width: 75%;
+}
+
+/* TrendingProducts start  */
+.TrendingProducts_img {
+  border-radius: 10px 10px 0px 0px;
+}
+
+/* BestSelling styles */
+.img_overlap {
+  position: absolute;
+  width: 50px;
+  bottom: 28%;
+  left: 4%;
+}
+
+/* services styles */
+.service_card {
+  background-color: #f7f5f7;
+}
+
+/* footer styles */
+.footer {
+  width: 100%;
+}
+
+.footer_brand {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.footer_border {
+  border-bottom: 1px solid #383a43;
+}
+
+.slider-wrapper {
+  cursor: grab;
+}
+
+.payment_img {
+  width: 60px;
+}
+
+.swiper-scrollbar {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1200px) {
+  .nav-link {
+    font-size: 14px !important;
+    padding-right: 4px !important;
+    padding-left: 4px !important;
+  }
+
+  .form-control {
+    font-size: 14px;
+  }
+
+  .acc {
+    font-size: 14px;
+  }
+
+  .hero_wrapper {
+    padding: 7rem;
+  }
+
+  .section_heading h2 {
+    font-size: 32px;
+  }
+
+  section {
+    margin-top: 65px;
+  }
+
+  .section_heading h2 {
+    font-size: 26px;
+  }
+
+  .top_categories_text_on_img {
+    font-size: 18px;
+
+  }
+
+  .btn_green {
+
+    line-height: 12px;
+    font-size: 12px;
+  }
+
+  .hero_subtitle {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .hero_title {
+    font-size: 34px;
+  }
+
+  .card-title {
+    font-size: 18px;
+
+  }
+
+  p {
+    font-size: 14px;
+
+  }
+
+  .rating_count {
+    font-size: 10px;
+  }
+
+  .btn_transperent {
+    line-height: 10px;
+    font-size: 12px;
+  }
+
+  .TodaysBestDeals_heart_on_img {
+    width: 22px;
+    height: 22px;
+    padding: 3px;
+  }
+
+  .TodaysBestDeals_bg_img {
+    width: 90%;
+  }
+
+  .sec9textbox h6 {
+    font-size: 32px;
+  }
+
+  .img_overlap {
+    width: 45px;
+    bottom: 26%;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  .footer_des {
+    font-size: 14px;
+  }
+
+  .cashback_btn {
+    line-height: 12px;
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (max-width: 960px) {
+  .navbar {
+    position: relative;
+  }
+
+  .navbar-collapse {
+    position: absolute;
+    top: 77px;
+    left: 0;
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .hero_text {
+    padding: 15px;
+    animation-duration: 2s;
+  }
+
+  .cashback_wrapper {
+    padding: 70px;
+  }
+
+  .top_categories_text_on_img {
+    font-size: 16px;
+  }
+
+  .card-title {
+    font-size: 16px;
+  }
+
+  .sec9textbox h6 {
+    font-size: 28px;
+  }
+
+
+  .footer_height {
+    height: auto !important;
+    align-items: start !important;
+  }
+
+  .sec9_img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar_brand_name {
+    font-size: 18px;
+
+  }
+
+  .hero_text {
+    padding: 0px;
+  }
+
+  .hero_wrapper {
+    padding: 5rem;
+  }
+
+  .hero_title {
+    font-size: 28px;
+  }
+
+  .cashback_box h6 {
+    font-size: 28px;
+
+  }
+
+  .card-title {
+    font-size: 16px;
+    margin-right: 0px !important;
+  }
+
+  .card-body {
+    text-align: center;
+
+  }
+
+  .fdircol {
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .brand_card {
+    padding: 10px 40px;
+  }
+
+  .logo_img {
+    width: 30px;
+  }
+
+  .footer_brand {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero_wrapper {
+    padding: 70px 35px;
+    background-color: #ffc74f;
+    background-image: none;
+  }
+
+  .TodaysBestDeals_card {
+    margin: 0 auto;
+    width: auto;
+  }
+
+  .TodaysBestDeals_bg_img {
+    padding: 12px;
+  }
+
+  .TodaysBestDeals_heart_on_img {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+  }
+
+  .hero_text {
+    text-align: center;
+  }
+
+  .section_heading {
+    text-align: center;
+  }
+
+  .card-title {
+    font-size: 18px;
+    display: inline-block;
+  }
+
+  .fdircol h5 {
+    margin-right: 0px !important;
+  }
+
+  .rating {
+    width: 55px;
+  }
+
+  .btn_transperent {
+    line-height: 12px;
+    font-size: 14px;
+  }
+
+  .brand_card {
+    flex-direction: column;
+    padding: 4px;
+  }
+
+  .brand_content {
+    text-align: center;
+  }
+
+  .cashback_box {
+    padding: 20px;
+  }
+
+  .cashback_wrapper {
+    text-align: center;
+  }
+
+  .cashback_box h6 {
+    font-size: 24px;
+  }
+
+  .cashback_btn {
+    line-height: 12px;
+    font-size: 14px;
+  }
+
+  .nav-pills {
+    justify-content: center;
+  }
+
+  .sec9_bg {
+    padding: 20px 28px;
+  }
+
+  .card {
+    text-align: center;
+  }
+
+  .service_card {
+    padding: 15px 10px !important;
+  }
+
+  .logo_img {
+    width: 32px;
+  }
+
+  .footer_brand {
+    font-size: 18px;
+  }
+
+  .footer_des {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .payment_img {
+    width: 45px;
+  }
+
+  .BestSelling_img {
+    width: 260px;
+  }
+
+  .sec9textbox h6 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  li {
+    font-size: 14px;
+  }
+
+  .sec9textbox p {
+    font-size: 14px;
+  }
+
+  .section_heading h2 {
+    font-size: 26px;
+    text-align: center !important;
+  }
+
+  .sellproduct_img {
+    height: 200px;
+    width: 320px;
+  }
+
+  .img_overlap {
+    width: 45px;
+  }
+}
